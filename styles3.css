@@ -1,0 +1,134 @@
+
+ .advanced {
+    color: #d93025;
+    font-size: 20px;
+    
+    margin: 25px 35px;
+}
+
+
+body {
+    font-family: arial,sans-serif;
+}
+.nav-link1 {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+    font-size: 20px;
+  }
+  .line {
+    border-bottom: 2px solid lightgray;
+  }
+  .h2 {
+   
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.form-input {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 20px;
+    height: 25px;
+    padding: 1px 8px;
+    margin-top: 20px;
+    margin-left: -10px;
+    font-size: 13px;
+    transition-duration: 0ms;
+  
+}
+.form-input1 {
+    margin-left: -10px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 20px;
+    height: 25px;
+    padding: 1px 8px;
+    margin-top: 20px;
+    font-size: 13px;
+  
+}
+.left {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    font-size:13px;
+    font-family: sans-serif;
+}
+
+  
+  .google-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 1px solid #0a6fd3;
+    border-radius: 4px;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 640px;
+  }
+  .img-container {
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+
+  .form-input {
+    border: 1px solid #ccc; /* Default border style */
+    padding: 5px;
+    transition: border-color 0.3s; /* Adding transition for smooth effect */
+  }
+  
+  .form-input:focus {
+    border-color: blue; /* Change border color when the input is focused */
+    outline: none; /* Remove default focus outline */
+  }
+  .form-input1 {
+    border: 1px solid #ccc; /* Default border style */
+    padding: 5px;
+    transition: border-color 0.3s; /* Adding transition for smooth effect */
+  }
+  
+  .form-input1:focus {
+    border-color: blue; /* Change border color when the input is focused */
+    outline: none; /* Remove default focus outline */
+  }
+  
+  
+  
+  
+  
+  
