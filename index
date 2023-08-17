@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search Page Buttons</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            
+                        <ul class="navbar-nav ms-auto">
+                       
+                                <a href="image.html" class="nav-link1">Images</a>
+                                <a href="advanced.html" class="nav-link2">Advanced-search</a>
+                           
+   
+                            </ul>
+                    </div>
+                </nav>
+    <div class="form">
+        <div class="img-container">
+            <img src="C:\Users\Salman\web50\projects\2020\x\search\google.png" width="272" height="92" alt="logo">
+        </div>
+        <form action="https://google.com/search">
+            <div class="input">
+                <div class="search-icon">
+                    <span class="fa fa-search"></span>
+                </div>
+                <input type="text" name="q" class="search-input" autofocus>
+            </div>
+            <div class="search-buttons">
+                <input type="submit" value="Google Search" class="google-button google-search-button">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI" class="google-button lucky-button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
